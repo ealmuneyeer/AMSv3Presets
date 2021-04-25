@@ -1,0 +1,34 @@
+{
+    "@odata.type": "#Microsoft.Media.StandardEncoderPreset",
+    "codecs": [{
+            "@odata.type": "#Microsoft.Media.AacAudio",
+            "profile": "HeAacV2",
+            "channels": 2,
+            "samplingRate": 48000,
+            "bitrate": 24000
+        }, {
+            "@odata.type": "#Microsoft.Media.H264Video",
+            "layers": [{
+                    "@odata.type": "#Microsoft.Media.H264Layer",
+                    "profile": "Baseline",
+                    "level": "2",
+                    "bufferWindow": "PT5S",
+                    "referenceFrames": 3,
+                    "entropyMode": "Cavlc",
+                    "bitrate": 56000,
+                    "maxBitrate": 56000,
+                    "frameRate": "0/1",
+                    "width": "176",
+                    "height": "144",
+                    "label": "176x144"
+                }
+            ],
+            "keyFrameInterval": "PT5S"
+        }
+    ],
+    "formats": [{
+            "@odata.type": "#Microsoft.Media.Mp4Format",
+            "filenamePattern": "Video-{Basename}-{Label}-{Bitrate}{Extension}"
+        }
+    ]
+}

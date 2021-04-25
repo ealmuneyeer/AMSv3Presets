@@ -1,0 +1,91 @@
+{
+    "@odata.type": "#Microsoft.Media.StandardEncoderPreset",
+    "codecs": [{
+            "@odata.type": "#Microsoft.Media.AacAudio",
+            "profile": "AacLc",
+            "channels": 2,
+            "samplingRate": 48000,
+            "bitrate": 128000
+        }, {
+            "@odata.type": "#Microsoft.Media.H264Video",
+            "layers": [{
+                    "@odata.type": "#Microsoft.Media.H264Layer",
+                    "profile": "Auto",
+                    "level": "auto",
+                    "bufferWindow": "PT5S",
+                    "referenceFrames": 3,
+                    "bitrate": 1600000,
+                    "maxBitrate": 1600000,
+                    "bFrames": 3,
+                    "frameRate": "0/1",
+                    "adaptiveBFrame": true,
+                    "width": "640",
+                    "height": "480",
+                    "label": "640x480"
+                }, {
+                    "@odata.type": "#Microsoft.Media.H264Layer",
+                    "profile": "Auto",
+                    "level": "auto",
+                    "bufferWindow": "PT5S",
+                    "referenceFrames": 3,
+                    "bitrate": 1300000,
+                    "maxBitrate": 1300000,
+                    "bFrames": 3,
+                    "frameRate": "0/1",
+                    "adaptiveBFrame": true,
+                    "width": "640",
+                    "height": "480",
+                    "label": "640x480"
+                }, {
+                    "@odata.type": "#Microsoft.Media.H264Layer",
+                    "profile": "Auto",
+                    "level": "auto",
+                    "bufferWindow": "PT5S",
+                    "referenceFrames": 3,
+                    "bitrate": 800000,
+                    "maxBitrate": 800000,
+                    "bFrames": 3,
+                    "frameRate": "0/1",
+                    "adaptiveBFrame": true,
+                    "width": "480",
+                    "height": "360",
+                    "label": "480x360"
+                }, {
+                    "@odata.type": "#Microsoft.Media.H264Layer",
+                    "profile": "Auto",
+                    "level": "auto",
+                    "bufferWindow": "PT5S",
+                    "referenceFrames": 3,
+                    "bitrate": 600000,
+                    "maxBitrate": 600000,
+                    "bFrames": 3,
+                    "frameRate": "0/1",
+                    "adaptiveBFrame": true,
+                    "width": "480",
+                    "height": "360",
+                    "label": "480x360"
+                }, {
+                    "@odata.type": "#Microsoft.Media.H264Layer",
+                    "profile": "Auto",
+                    "level": "auto",
+                    "bufferWindow": "PT5S",
+                    "referenceFrames": 3,
+                    "bitrate": 400000,
+                    "maxBitrate": 400000,
+                    "bFrames": 3,
+                    "frameRate": "0/1",
+                    "adaptiveBFrame": true,
+                    "width": "360",
+                    "height": "240",
+                    "label": "360x240"
+                }
+            ],
+            "keyFrameInterval": "PT2S"
+        }
+    ],
+    "formats": [{
+            "@odata.type": "#Microsoft.Media.Mp4Format",
+            "filenamePattern": "Video-{Basename}-{Label}-{Bitrate}{Extension}"
+        }
+    ]
+}
