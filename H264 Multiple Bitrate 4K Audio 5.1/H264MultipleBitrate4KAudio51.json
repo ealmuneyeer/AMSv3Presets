@@ -47,9 +47,9 @@
                     "bFrames": 3,
                     "frameRate": "0/1",
                     "adaptiveBFrame": true,
-                    "width": "3840",
-                    "height": "2160",
-                    "label": "3840x2160"
+                    "width": "3520",
+                    "height": "1980",
+                    "label": "3520x1980"
                 }, {
                     "@odata.type": "#Microsoft.Media.H264Layer",
                     "profile": "Auto",
@@ -61,9 +61,9 @@
                     "bFrames": 3,
                     "frameRate": "0/1",
                     "adaptiveBFrame": true,
-                    "width": "3840",
-                    "height": "2160",
-                    "label": "3840x2160"
+                    "width": "3200",
+                    "height": "1800",
+                    "label": "3200x1800"
                 }, {
                     "@odata.type": "#Microsoft.Media.H264Layer",
                     "profile": "Auto",
@@ -75,9 +75,9 @@
                     "bFrames": 3,
                     "frameRate": "0/1",
                     "adaptiveBFrame": true,
-                    "width": "2560",
-                    "height": "1440",
-                    "label": "2560x1440"
+                    "width": "2880",
+                    "height": "1620",
+                    "label": "2880x1620"
                 }, {
                     "@odata.type": "#Microsoft.Media.H264Layer",
                     "profile": "Auto",
@@ -103,9 +103,9 @@
                     "bFrames": 3,
                     "frameRate": "0/1",
                     "adaptiveBFrame": true,
-                    "width": "2560",
-                    "height": "1440",
-                    "label": "2560x1440"
+                    "width": "2240",
+                    "height": "1260",
+                    "label": "2240x1260"
                 }, {
                     "@odata.type": "#Microsoft.Media.H264Layer",
                     "profile": "Auto",
@@ -131,9 +131,9 @@
                     "bFrames": 3,
                     "frameRate": "0/1",
                     "adaptiveBFrame": true,
-                    "width": "1920",
-                    "height": "1080",
-                    "label": "1920x1080"
+                    "width": "1600",
+                    "height": "900",
+                    "label": "1600x900"
                 }, {
                     "@odata.type": "#Microsoft.Media.H264Layer",
                     "profile": "Auto",
